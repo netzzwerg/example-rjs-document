@@ -1,0 +1,1 @@
+define("foo",[],function(){return{init:function(e){document.getElementById("foo")}}}),define("bar",function(){}),define("app",["foo","bar"],function(){return{init:function(e){document.getElementById("foo")}}});
